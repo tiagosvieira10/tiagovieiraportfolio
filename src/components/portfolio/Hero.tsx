@@ -31,8 +31,7 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-5xl px-5 w-full text-center">
-        {/* Status badge */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -44,11 +43,8 @@ export function Hero() {
           </span>
           Disponível para novos projetos
           <span className="text-border">·</span>
-          {/* <Sparkles size={11} className="text-primary" />
-          Remote / Worldwide */}
-        </motion.div>
+        </motion.div> */}
 
-        {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -60,9 +56,6 @@ export function Hero() {
             <span className="text-gradient">Engenharia de software</span>
             <span className="text-primary">.</span>
           </span>
-          {/* <span className="block text-foreground/60 text-3xl sm:text-5xl md:text-6xl mt-3 font-light italic">
-            feita com intenção.
-          </span> */}
         </motion.h1>
 
         {/* Subline */}
@@ -110,29 +103,6 @@ export function Hero() {
             <Github size={16} />
           </a>
         </motion.div>
-
-        {/* Stats */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="mt-16 grid grid-cols-3 max-w-2xl mx-auto divide-x divide-border/60 rounded-2xl glass py-5"
-        >
-          {[
-            { k: "+10", v: "Projetos" },
-            { k: "3+", v: "Anos codando" },
-            { k: "100%", v: "Foco em qualidade" },
-          ].map((s) => (
-            <div key={s.v} className="px-2">
-              <div className="text-2xl sm:text-3xl font-display font-semibold text-foreground">
-                {s.k}
-              </div>
-              <div className="text-xs sm:text-sm text-muted-foreground mt-0.5">
-                {s.v}
-              </div>
-            </div>
-          ))}
-        </motion.div> */}
       </div>
 
       {/* Tech marquee */}
