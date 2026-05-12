@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Instagram, MessageCircle, ArrowRight } from "lucide-react";
+import { ArrowRight, Github, Instagram, Linkedin, Mail, MessageCircle } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
-const WHATSAPP_URL = "https://wa.me/5500000000000?text=Ol%C3%A1%20Tiago%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto.";
-const EMAIL = "contato@tiagosvieira.com.br";
+const WHATSAPP_URL = "https://wa.me/5587992438502?text=Ol%C3%A1%20Tiago%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto.";
+const EMAIL = "tiagosvieira10@gmail.com";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com/" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/" },
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/tiagosvieira10" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/tiago-svieira/" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/tiago.svieira_" },
 ];
 
 export function Contact() {
